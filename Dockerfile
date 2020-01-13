@@ -15,4 +15,7 @@ RUN apt-get update && apt-get install -y git
 # install
 RUN git clone -b master https://github.com/7yl4r/imagery_utils.git
 
+# addntl tools
+RUN apt-get install -y tree
+
 ENTRYPOINT ["/entrypoint.sh"]
