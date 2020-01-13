@@ -5,7 +5,7 @@ cd imagery_utils
 ln -s /testdata tests/testdata
 
 echo "test data setup:"
-tree tests/testdata
+tree -lh tests/testdata
 
 echo "python version:"
 python --version
